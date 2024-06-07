@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+body {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+  font-weight: 400;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Adjust padding as needed */
+  background-color: #285048; /* Adjust background color as needed */
+}
+
+.navBar-logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navBar-Palm {
+  margin-right: 10px; /* Adjust space between palm and logo */
+}
+
+.logo-img {
+  height: 20px; /* Adjust size as needed */
+  width: auto;  /* Maintain aspect ratio */
+}
+.logo-palm{
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none; /* Remove dots */
+  display: flex;    /* Display items in a single line */
+  margin: 0;       /* Remove default margin */
+  padding: 0;      /* Remove default padding */
+}
+
+.nav-links li {
+  margin-left: 20px; /* Adjust space between links */
+}
+
+.nav-links a {
+  color: white; /* Adjust text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.nav-links a:hover {
+  /* text-decoration: underline; Optional: underline on hover */
+}
+
+
